@@ -6,10 +6,12 @@
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
     "test": "vue-cli-service test",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^2.5.13"
+    "vue": "^2.5.13",
+    "vuetify": "^1.0.8"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
@@ -19,6 +21,8 @@
     "@vue/test-utils": "^1.0.0-beta.10",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^22.0.4",
+    "gh-pages": "^1.1.0",
+    "vue-server-renderer": "^2.5.16",
     "vue-template-compiler": "^2.5.13"
   },
   "babel": {
